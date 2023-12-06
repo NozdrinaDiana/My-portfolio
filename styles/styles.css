@@ -1,7 +1,37 @@
-/*font-family: 'Cuprum', sans-serif;
-font-family: 'IBM Plex Mono', monospace;*/
-h1 {
-  font-family: Cuprum, sans-serif;
-  font-weight: 700;
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+
+.home-page-main {
+  font-family: "Poppins", sans-serif;
   text-align: center;
+}
+.home-page-h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 96px;
+  color: #000;
+}
+.home-page-h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #272142;
+  margin-top: 276px;
+}
+.home-page-h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #272142;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.home-page-btn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  background: #6c63ff;
+  width: 200px;
+  padding: 18px 30px;
+  text-decoration: none;
 }
