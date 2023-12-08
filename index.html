@@ -14,6 +14,11 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,18 +26,76 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/styles.css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
   </head>
+
   <body>
-    <div class="home-page-main">
-      <h2 class="home-page-h2">Hi, I'm</h2>
-      <h1 class="home-page-h1">Diana Nozdrina</h1>
-      <h3 class="home-page-h3">Frontend Developer, based in Ukraine.</h3>
-      <a href="#" class="home-page-btn"> Get Started</a>
+    <div class="container">
+      <div class="home-page-main">
+        <h2 class="home-page-h2">Hi, I'm</h2>
+        <h1 class="home-page-h1">Diana Nozdrina</h1>
+        <h3 class="home-page-h3">Frontend Developer, based in Ukraine.</h3>
+        <a href="#" class="home-page-btn"> Get Started</a>
+      </div>
+      <div class="home-page-cont">
+        Featured Project which my best projects be choice to show
+      </div>
+
+      <div class="row proj-case">
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/proj-1.png"
+            alt="photo of app"
+            class="img-fluid img-home"
+            width="70%"
+          />
+        </div>
+        <div class="col project">
+          <h3 class="proj-name">Hobby app</h3>
+          <p class="proj-description">
+            This is an interesting hobby application that introduces you to the
+            wonderful world of royal pelargonium flowers.
+          </p>
+          <button class="home-page-btn">Launch Hobby app</button>
+        </div>
+      </div>
+
+      <div class="row proj-case">
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/proj-2.png"
+            alt="photo of app"
+            class="img-fluid img-home"
+            width="70%"
+          />
+        </div>
+        <div class="col project">
+          <h3 class="proj-name">Weather app</h3>
+          <p class="proj-description">
+            This is an excellent weather application that allows you to view the
+            weather forecast anywhere in the world for the next 5 days
+          </p>
+          <button class="home-page-btn">Launch Weather app</button>
+        </div>
+      </div>
+
+      <div class="row proj-case">
+        <div class="col d-none d-lg-block">
+          <img
+            src="img/prog-3.png"
+            alt="photo of app"
+            class="img-fluid img-home"
+            width="70%"
+          />
+        </div>
+        <div class="col project">
+          <h3 class="proj-name">Banderagoose app</h3>
+          <p class="proj-description">
+            This is a comic hobby application that introduces you to the
+            wonderful world of Ukrainian fighting geese
+          </p>
+          <button class="home-page-btn">Launch Banderagoose app</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

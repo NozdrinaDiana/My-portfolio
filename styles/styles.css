@@ -1,37 +1,94 @@
+:root {
+  --main-color: hsl(0, 1%, 55%);
+  --second-color: rgb(182, 10, 76);
+  --third-color: #272142;
+  --border: #828183 solid 2px;
+}
+body {
+  background-color: rgb(182, 179, 179);
+  font-family: "Poppins", sans-serif;
+}
+
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
-
 .home-page-main {
-  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 .home-page-h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 96px;
-  color: #000;
+  color: var(--second-color);
 }
 .home-page-h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #272142;
-  margin-top: 276px;
+  color: var(--third-color);
+  margin-top: 140px;
 }
 .home-page-h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #272142;
+  color: var(--third-color);
   margin-top: 24px;
   margin-bottom: 48px;
 }
 .home-page-btn {
-  color: #fff;
+  color: var(--second-color);
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  border-radius: 4px;
-  background: #6c63ff;
-  width: 200px;
-  padding: 18px 30px;
+  border-radius: 8px;
+  border: var(--border);
+  box-shadow: 8px 8px 8px rgb(147, 148, 148);
+  background: var(--main-color);
+  width: 280px;
+  padding: 8px 30px;
   text-decoration: none;
+}
+.home-page-btn:hover {
+  background-color: #828183;
+}
+.home-page-cont {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 90px;
+}
+.proj-case {
+  border: var(--border);
+  box-shadow: 8px 8px 8px rgb(147, 148, 148);
+  border-radius: 8px;
+  margin: 24px;
+  padding: 28px;
+}
+.img-home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+.project {
+  text-align: center;
+}
+.proj-name {
+  padding: 20px;
+  color: var(--third-color);
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 700;
+}
+.proj-description {
+  padding: 20px;
+}
+@media (max-width: 900px) {
+  .home-page-h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .proj-name {
+    font-size: 36px;
+  }
 }
