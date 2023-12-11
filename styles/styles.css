@@ -3,6 +3,7 @@
   --second-color: rgb(182, 10, 76);
   --third-color: #272142;
   --border: #828183 solid 2px;
+  --box-shadow: 8px 8px 8px rgb(147, 148, 148);
 }
 body {
   background-color: rgb(182, 179, 179);
@@ -40,7 +41,7 @@ font-family: 'Poppins', sans-serif;*/
   font-weight: 500;
   border-radius: 8px;
   border: var(--border);
-  box-shadow: 8px 8px 8px rgb(147, 148, 148);
+  box-shadow: var(--box-shadow);
   background: var(--main-color);
   width: 280px;
   padding: 8px 30px;
@@ -57,7 +58,7 @@ font-family: 'Poppins', sans-serif;*/
 }
 .proj-case {
   border: var(--border);
-  box-shadow: 8px 8px 8px rgb(147, 148, 148);
+  box-shadow: var(--box-shadow);
   border-radius: 8px;
   margin: 24px;
   padding: 28px;
@@ -91,4 +92,67 @@ font-family: 'Poppins', sans-serif;*/
   .proj-name {
     font-size: 36px;
   }
+  .about-page-main {
+    text-align: center;
+    padding: 0;
+  }
+  .img-about {
+    width: 60%;
+    margin-top: 28px;
+  }
+
+  .about-education {
+    margin: 8px;
+    padding: 4px;
+  }
+  .education {
+    width: 95%;
+  }
+  .skills {
+    width: 44%;
+  }
+}
+/* about-page*/
+.about-page {
+  margin-top: 56px;
+}
+.about-page-content {
+  margin: 30px;
+}
+.about-page-h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--second-color);
+}
+.about-page-h3 {
+  color: var(--third-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+.img-about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+.skills,
+.education {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  margin: 20px 8px 40px 8px;
+  padding: 24px;
+}
+.my-education,
+.skills-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--third-color);
+}
+.my-university {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--third-color);
 }
