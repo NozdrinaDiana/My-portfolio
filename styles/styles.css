@@ -61,7 +61,7 @@ font-family: 'Poppins', sans-serif;*/
   box-shadow: var(--box-shadow);
   border-radius: 8px;
   margin: 24px;
-  padding: 28px;
+  padding: 24px;
 }
 .img-home {
   display: block;
@@ -111,6 +111,10 @@ font-family: 'Poppins', sans-serif;*/
   .skills {
     width: 44%;
   }
+  .proj-case {
+    width: 90%;
+    margin: 8px auto;
+  }
 }
 /* about-page*/
 .about-page {
@@ -155,4 +159,17 @@ font-family: 'Poppins', sans-serif;*/
   font-size: 20px;
   font-weight: 700;
   color: var(--third-color);
+}
+/* work-page*/
+
+.work-page-h1 {
+  color: var(--second-color);
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 700;
+}
+.work-page-h3 {
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 600;
 }
