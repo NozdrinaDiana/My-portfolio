@@ -74,7 +74,8 @@ li a:hover {
   margin-top: 24px;
   margin-bottom: 48px;
 }
-.home-page-btn {
+.home-page-btn,
+.btn-work-iquiry-box {
   color: var(--second-color);
   font-family: Poppins;
   font-size: 20px;
@@ -87,7 +88,8 @@ li a:hover {
   padding: 8px 24px;
   text-decoration: none;
 }
-.home-page-btn:hover {
+.home-page-btn:hover,
+.btn-work-iquiry-box:hover {
   background-color: #828183;
 }
 .home-page-cont {
@@ -97,7 +99,8 @@ li a:hover {
   margin-top: 90px;
 }
 .proj-case,
-.my-links {
+.my-links,
+.work-iquiry-box {
   border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 8px;
@@ -123,43 +126,7 @@ li a:hover {
 .proj-description {
   padding: 20px;
 }
-@media (max-width: 900px) {
-  .home-page-h1 {
-    font-size: 60px;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .proj-name {
-    font-size: 36px;
-  }
-  .about-page {
-    margin-top: 0px;
-  }
-  .about-page-main {
-    text-align: center;
-    padding: 0;
-  }
-  .img-about {
-    width: 60%;
-    margin-top: 28px;
-  }
 
-  .about-education {
-    margin: 8px;
-    padding: 4px;
-  }
-  .education {
-    width: 95%;
-  }
-  .skills {
-    width: 44%;
-  }
-  .proj-case {
-    width: 90%;
-    margin: 8px auto;
-  }
-}
 /* about-page*/
 .about-page {
   margin-top: 80px;
@@ -192,7 +159,7 @@ ul {
   border: var(--border);
   box-shadow: var(--box-shadow);
   border-radius: 8px;
-  margin: 20px 8px 40px 8px;
+  margin: 20px auto 40px;
   padding: 24px;
 }
 .my-education,
@@ -245,4 +212,99 @@ ul {
 }
 .my-link-a {
   color: var(--second-color);
+}
+/* footer*/
+
+.h3-work-iquiry-box {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--third-color);
+  margin: 42px 36px 18px;
+}
+.p-work-iquiry-box {
+  margin: 0 0 42px 36px;
+  font-size: 18px;
+}
+
+.my-link-footer {
+  display: block;
+  color: var(--third-color);
+  font-size: 32px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 80px;
+}
+.my-link-footer:hover {
+  color: var(--second-color);
+}
+.footer-link-container {
+  display: flex;
+
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 36px;
+}
+.footer-link {
+  margin: 0 20px;
+  padding: 8px 14px;
+  color: var(--second-color);
+  font-size: 18px;
+  border: var(--border);
+
+  border-radius: 50%;
+  background: var(--main-color);
+}
+.footer-link:hover {
+  color: white;
+  background: var(--second-color);
+}
+
+/*media*/
+@media (max-width: 900px) {
+  .home-page-h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .proj-name {
+    font-size: 36px;
+  }
+  .about-page {
+    margin-top: 0px;
+  }
+  .about-page-main {
+    text-align: center;
+    padding: 0;
+  }
+  .img-about {
+    width: 60%;
+    margin-top: 28px;
+  }
+
+  .about-education {
+    margin: 8px;
+    padding: 4px;
+  }
+  .education {
+    width: 95%;
+  }
+  .skills {
+    width: 44%;
+  }
+  .proj-case {
+    width: 90%;
+    margin: 8px auto;
+  }
+  .home-page-btn,
+  .btn-work-iquiry-box {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .jj {
+    text-align: center;
+  }
 }
